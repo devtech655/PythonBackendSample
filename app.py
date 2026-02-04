@@ -3,6 +3,7 @@ import sqlite3
 import hashlib
 import os
 from functools import wraps
+from flask_cors import CORS
 
 
 API_TOKEN = os.getenv("API_TOKEN")
